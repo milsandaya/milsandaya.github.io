@@ -1,0 +1,98 @@
+<!-------w--------
+
+    Final Project
+    Name: Milary Andaya
+    Date: April 2020
+    Description: Description: A website selling exotic pets: the contact information page.
+
+----------------->
+
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<title>Exotic Pets</title>
+	<link rel = "stylesheet" type = "text/css" href = "projectstyles.css"> 
+	<script src="commentForm.js" type="text/javascript"></script>
+	
+</head>
+<body>
+	<div id = "storetitle">
+		<header>
+			<img class = "monkey" src="images/monkey.png" alt="monkey">
+		</header>
+	</div>
+
+	<nav id = "mainnav">
+		<ul>
+			<li><a href = "index.html">Home</a></li>
+			<li><a href = "products.html">Products and Services</a></li>
+			<li><a href = "#">Meet the Team</a></li>
+			<li><a href = "contact.html">Contact Us</a></li>
+			<li><form id = "searchbar" method ="post" action = "form.html">
+				<input type="text" name="name" id ="search" /> 
+				<button type = "submit" name ="submit">Search</button>
+				</form>
+			</li>
+		</ul>
+		</nav>
+	<div id = "banner">
+		<header>		
+		</header>
+	</div>
+
+	<div id = "maincontact">
+	<div id = feedback>
+		<form id="feedbackform"
+			  action="index.html" 
+		      method="post">
+
+		    <h4> For Questions or Concerns: </h4>
+			<ul>
+				<li>
+					<label for="name">Name:</label>
+					<input type="text" autofocus id="name"/>
+					<p class="feedbackError error" id="name_error">* This is a Required Field</p>
+				</li>
+				<li>
+					<label for="phone">Phone Number:</label>
+					<input type="tel" id="phone" />
+					<p class="feedbackError error" id="phone_error">* This is a Required Field</p>
+				</li>
+				<li>
+					<label for="email">Email:</label>
+					<input type="text" id="email" />
+					<p class="feedbackError error" id="email_error">* This is a Required Field</p>
+					<p class="shippingError error" id="validemail_error">* Invalid Email Address</p>
+				</li>
+				<li>
+					<label for="comment">Comments:</label>
+					<textarea id="comment" rows ="1" cols ="30"></textarea> 
+				</li>
+			</ul>
+			<footer>
+				<button type="submit" id="submit">Submit</button>
+				<button type="reset" id="clear">Reset</button>
+			</footer>
+		</form>
+	</div>
+
+	<div id = "end">
+		<footer>
+			<div id = "footfirst">
+				<nav id = "footnav">
+					<ul>
+						<li><a href = "index.html">Home </a></li>
+						<li><a href = "products.html">Products </a></li>
+						<li><a href = "contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id = "footaddress">
+				25803 N County Road 3250, Wynnewood, Oklahoma 73098, USA
+			</div>
+		</footer>
+	</div>
+	</div>
+</body>
+</html>

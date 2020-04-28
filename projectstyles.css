@@ -1,0 +1,215 @@
+/******w**********
+    
+    Final Project Stylesheet
+    Name: Milary Andaya
+    Date: Feb. 21, 2020
+    Description: CSS for Final Project.
+
+*****************/
+html, body, #banner, #end, div{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 790px;
+	height: auto;
+	margin: 10px auto 10px auto;
+	padding-top: 0px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-bottom: 10px;
+	border: 5px dashed #a2a2a2;
+	border-top-color: #ff8b3d;
+	border-bottom-color: #ff8b3d;
+	border-left-color: black;
+	border-right-color: black;
+	font-family: "Calibri";
+}
+
+#storetitle {
+	margin: 0px;
+}
+
+#banner{
+	width:790px;
+	height: 250px;
+	background-image: url(images/tiger7.jpg);
+	background-repeat: no-repeat;
+	background-size: 790px, 250px;
+	display: flex;
+}
+
+	#banner header{
+		width: 790px;
+		height: 250px;
+	}
+
+#mainnav{
+	
+	text-align: center;
+	display: flex;
+	color: white;
+	margin-top: 0px;
+}
+
+	#mainnav ul{
+		margin: 0px;
+		padding-left: 55px;
+		background: linear-gradient(to bottom, #FF6600 0%,#ff8b3d 50%,#ffaf7a 100%);
+		width: 100%;
+		height: 45px;
+		display: flex;
+		text-align: center;
+		color: black;
+		font-weight: 500;
+	}
+
+	#mainnav li{
+		list-style-type: none;
+		display: inline;
+		font-size: 15px;
+		letter-spacing: 1.5px;
+		padding: 10px 10px 3px 10px;
+	}
+
+	#mainnav a{
+		text-decoration: none;
+		display: inline;
+		color: black;
+	}
+
+	#mainnav a:hover{
+		text-decoration: none;
+		display: inline;
+		transition: 1s;
+		background-color: #a34100;
+	}
+
+	#mainnav a:visited{
+		text-decoration: none;
+		color: black;
+	}
+
+	#mainnav a:focus{
+		background-color: #a34100;
+	}
+
+#search{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#search input[type='text']{
+	width: 90px;
+}
+
+#end {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 60px;
+}
+
+
+/*Products*/
+
+.animal{
+	width: 350px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#babywhitetigerlist, #marmosetlist{
+	border: 1px solid gray;
+	border-radius: 30px;
+	padding: 20px;
+	list-style-type: none;
+	margin: 16px;
+}
+
+
+/*Contact*/
+#maincontact{
+	background-color: #ffaf7a;
+}
+
+#feedbackform{
+	padding: 30px;
+}
+
+#feedbackform ul li {
+	list-style:none;
+	background:#ED7117;
+	border:2px solid black;
+	line-height:30px;
+	padding:8px 10px;
+}
+
+#feedbackform input, textarea{
+	float: right;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#feedbackform button {
+	
+	float: right;
+	color: black;
+	display: inline-block;
+	font: 15px;
+	border: 1px solid;
+	margin: auto;
+	padding: 8px 20px;
+}
+
+/*Footer*/
+
+#footfirst{
+	padding-right: 20px;
+}
+
+#footnav ul{
+	list-style-type: none;
+	font-size: 13px;
+	margin: 0px;
+	padding-left: 20px;
+}
+
+#footnav li{
+	display: inline;
+	border-right: 1px solid black;
+	padding-right: 5px;
+	padding-left: 7px;
+}
+
+#footnav li:nth-child(6){
+	border-right: none;
+}
+
+#footnav li a{
+	color: black;
+	text-decoration: none;
+}
+
+#footnav li a:hover{
+	font-style: italic;
+}
+
+#footnav li a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+#footnav li a:focus{
+	color: black;
+}
+
+#footaddress{
+	font-size: 13px;
+}
+
